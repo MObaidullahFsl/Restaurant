@@ -32,6 +32,44 @@ header{
     gap:20px;
     border-bottom: 1px solid grey;
 }
+ 
+.box{
+    width:400px;
+    height: 300px;
+    
+    z-index: 999;
+    margin-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding-top: 10px;
+  
+}
+
+.title{
+font-family: 'Bonheur Royale';
+font-size: 80px;
+color: gold;
+text-align: center;
+  
+margin-bottom: -35px;  
+}
+
+.desc{
+    font-size: 50px;
+    color:beige;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ 
+     margin-top: -30px;
+}
+.time{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  
+     margin-top: 100px;
+}
+
 button{
     all:unset;
     padding:10px 30px;
@@ -46,4 +84,4 @@ button{
 button:hover{
     transform: scale(1.04);
     cursor: grab;
-}
+} 

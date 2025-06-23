@@ -1,35 +1,43 @@
 import "./style.css"
+import makehome from "./home"
+import makemenu from "./menu"
+import makeabout from "./about"
 
 const content = document.querySelector("#content")
 
+const home = document.querySelector(".Home")
+const menu = document.querySelector(".Menu")
+const about = document.querySelector(".About")
 
 const img = document.createElement("div");
 img.classList.toggle("bgimg");
+
 
 
 content.appendChild(img);
 
 console.log("something")
 
-const textBox = document.createElement("div")
-textBox.classList.toggle("box")
-img.appendChild(textBox);
+function clean(){
+    img.innerHTML = "";
+}
 
+home.addEventListener("click", ()=>{
+    clean();
+    makehome();
+})
 
-const title = document.createElement("div")
-title.classList.toggle("title")
-title.textContent="El Duce"
-textBox.appendChild(title)
+menu.addEventListener("click", ()=>{
+    clean();
+    makemenu();
+})
 
-const desc = document.createElement("div")
-desc.classList.toggle("desc")
-desc.textContent="Cafe Da Roma"
-textBox.appendChild(desc)
+about.addEventListener("click", ()=>{
+    clean();
+    makeabout();
+})
 
-
-const time = document.createElement("div")
-time.classList.toggle("time")
-time.textContent="Monday - Friday ( 10:00 - 22:00 )"
-textBox.appendChild(time)
-
-
+window.onload = function () {
+    clean();
+    makehome();
+};
