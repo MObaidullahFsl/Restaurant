@@ -22,21 +22,20 @@ The goal of this project is to:
 - Webpack 5
 
 ---
-
 ## 📁 Project Structure
 
+```plaintext
 restaurant/
-├── dist/ # Production-ready bundled output
+├── dist/                  # Production-ready bundled output
 ├── src/
-│ ├── assets/ # Images, fonts, etc.
-│ ├── pages/ # Modular page components (home.js, menu.js, etc.)
-│ ├── style.css # Global styles
-│ ├── template.html # Base HTML template
-│ └── index.js # Entry point
+│   ├── assets/            # Images, fonts, etc.
+│   ├── pages/             # Modular page components (home.js, menu.js, etc.)
+│   ├── style.css          # Global styles
+│   ├── template.html      # Base HTML template
+│   └── index.js           # Entry point
 ├── package.json
 ├── webpack.config.js
 └── README.md
-
 
 ---
 
