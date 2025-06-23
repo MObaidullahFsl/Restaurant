@@ -1,4 +1,4 @@
-import "./style.css"
+import "./styles/style.css"
 import makehome from "./home"
 import makemenu from "./menu"
 import makeabout from "./about"

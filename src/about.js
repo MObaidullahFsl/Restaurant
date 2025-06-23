@@ -1,4 +1,4 @@
-import "./style3.css"
+import "./styles/style3.css"
 
 
 const makeabout = function(){

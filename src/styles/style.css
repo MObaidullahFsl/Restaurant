@@ -8,7 +8,7 @@ body{
 
 .bgimg{
 
-   background-image: url("../assets/home.jpg");
+   background-image: url("../../assets/home.jpg");
   background-size: cover;           
   background-repeat: no-repeat;       
   background-position: left top; 
