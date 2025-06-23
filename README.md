@@ -43,7 +43,7 @@ restaurant/
 ## 🔗 Live Demo
 
 👉 **View it on GitHub Pages:**  
-[https://yourusername.github.io/restaurant](https://yourusername.github.io/restaurant)
+[https://mobaidullahfsl.github.io/Restaurant/](https://mobaidullahfsl.github.io/Restaurant/)
 
 ---
 
