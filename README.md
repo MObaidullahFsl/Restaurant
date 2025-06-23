@@ -36,7 +36,7 @@ restaurant/
 ├── package.json
 ├── webpack.config.js
 └── README.md
-
+```
 ---
 
 ## 🔗 Live Demo
